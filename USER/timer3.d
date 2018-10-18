@@ -1,0 +1,16 @@
+.\timer3.o: timer3.c
+.\timer3.o: timer3.h
+.\timer3.o: ..\CMSIS\stm32f10x.h
+.\timer3.o: ..\CMSIS\core_cm3.h
+.\timer3.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\timer3.o: ..\CMSIS\system_stm32f10x.h
+.\timer3.o: ..\USER\stm32f10x_conf.h
+.\timer3.o: ..\FWlib\inc\stm32f10x_adc.h
+.\timer3.o: ..\CMSIS\stm32f10x.h
+.\timer3.o: ..\FWlib\inc\stm32f10x_dma.h
+.\timer3.o: ..\FWlib\inc\stm32f10x_flash.h
+.\timer3.o: ..\FWlib\inc\stm32f10x_gpio.h
+.\timer3.o: ..\FWlib\inc\stm32f10x_rcc.h
+.\timer3.o: ..\FWlib\inc\stm32f10x_usart.h
+.\timer3.o: ..\FWlib\inc\stm32f10x_tim.h
+.\timer3.o: ..\FWlib\inc\misc.h

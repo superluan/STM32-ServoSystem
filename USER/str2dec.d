@@ -1,0 +1,15 @@
+.\str2dec.o: str2dec.c
+.\str2dec.o: str2dec.h
+.\str2dec.o: ..\CMSIS\stm32f10x.h
+.\str2dec.o: ..\CMSIS\core_cm3.h
+.\str2dec.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\str2dec.o: ..\CMSIS\system_stm32f10x.h
+.\str2dec.o: ..\USER\stm32f10x_conf.h
+.\str2dec.o: ..\FWlib\inc\stm32f10x_adc.h
+.\str2dec.o: ..\CMSIS\stm32f10x.h
+.\str2dec.o: ..\FWlib\inc\stm32f10x_dma.h
+.\str2dec.o: ..\FWlib\inc\stm32f10x_flash.h
+.\str2dec.o: ..\FWlib\inc\stm32f10x_gpio.h
+.\str2dec.o: ..\FWlib\inc\stm32f10x_rcc.h
+.\str2dec.o: ..\FWlib\inc\stm32f10x_usart.h
+.\str2dec.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\string.h

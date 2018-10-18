@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\CMSIS -I..\FWlib\inc -I..\USER
+-I "C:\Users\L-Dragon\Desktop\STM32_C\pwm_adc_temperature_urat_pid_contrl_Trapezoidal_Trajectory planning - 串口16进制_多指令_v9.0.2固定周期可调\USER\RTE"
+-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include
+-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0
+-D_RTE_ -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER
+-o .\stm32f10x_exti.o --omf_browse .\stm32f10x_exti.crf --depend .\stm32f10x_exti.d "..\FWlib\src\stm32f10x_exti.c"

@@ -1,0 +1,30 @@
+SET PATH=D:\Keil_v5\ARM\ARMCC\bin\;D:\ProgramData\Anaconda3;D:\ProgramData\Anaconda3\Library\mingw-w64\bin;D:\ProgramData\Anaconda3\Library\usr\bin;D:\ProgramData\Anaconda3\Library\bin;D:\ProgramData\Anaconda3\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;D:\Program Files\MATLAB\R2016a\runtime\win64;D:\Program Files\MATLAB\R2016a\bin;D:\Program Files\MATLAB\R2016a\polyspace\bin;C:\WINDOWS\System32\OpenSSH\;"D:\Program Files\Java\jdk-10.0.1\bin;D:\Program Files\Java\jdk-10.0.1\jre\bin";C:\Users\L-Dragon\Anaconda3\Scripts;D:\Program Files (x86)\jlink_repair\Atmel\sam-ba_2.12\drv\;D:\Program Files (x86)\jlink_repair\Atmel\sam-ba_2.12;C:\Users\L-Dragon\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;D:\Wind\Wind.NET.Client\WindNET\bin\
+SET CPU_TYPE=STM32F103C8
+SET CPU_VENDOR=STMicroelectronics
+SET UV2_TARGET=ADC-DEMO
+SET CPU_CLOCK=0x044AA200
+"D:\Keil_v5\ARM\ARMCC\bin\ArmAsm" --Via ".\startup_stm32f10x_hd._ia"
+"D:\Keil_v5\ARM\ARMCC\bin\ArmCC" --Via ".\main.__i"
+"D:\Keil_v5\ARM\ARMCC\bin\ArmCC" --Via ".\stm32f10x_it.__i"
+"D:\Keil_v5\ARM\ARMCC\bin\ArmCC" --Via ".\usart1.__i"
+"D:\Keil_v5\ARM\ARMCC\bin\ArmCC" --Via ".\adc.__i"
+"D:\Keil_v5\ARM\ARMCC\bin\ArmCC" --Via ".\led.__i"
+"D:\Keil_v5\ARM\ARMCC\bin\ArmCC" --Via ".\timer3.__i"
+"D:\Keil_v5\ARM\ARMCC\bin\ArmCC" --Via ".\pwm_output.__i"
+"D:\Keil_v5\ARM\ARMCC\bin\ArmCC" --Via ".\wave_filtering.__i"
+"D:\Keil_v5\ARM\ARMCC\bin\ArmCC" --Via ".\pid.__i"
+"D:\Keil_v5\ARM\ARMCC\bin\ArmCC" --Via ".\str2dec.__i"
+"D:\Keil_v5\ARM\ARMCC\bin\ArmCC" --Via ".\stm32f10x_gpio.__i"
+"D:\Keil_v5\ARM\ARMCC\bin\ArmCC" --Via ".\stm32f10x_rcc.__i"
+"D:\Keil_v5\ARM\ARMCC\bin\ArmCC" --Via ".\stm32f10x_usart.__i"
+"D:\Keil_v5\ARM\ARMCC\bin\ArmCC" --Via ".\stm32f10x_adc.__i"
+"D:\Keil_v5\ARM\ARMCC\bin\ArmCC" --Via ".\stm32f10x_dma.__i"
+"D:\Keil_v5\ARM\ARMCC\bin\ArmCC" --Via ".\stm32f10x_flash.__i"
+"D:\Keil_v5\ARM\ARMCC\bin\ArmCC" --Via ".\stm32f10x_rtc.__i"
+"D:\Keil_v5\ARM\ARMCC\bin\ArmCC" --Via ".\misc.__i"
+"D:\Keil_v5\ARM\ARMCC\bin\ArmCC" --Via ".\stm32f10x_tim.__i"
+"D:\Keil_v5\ARM\ARMCC\bin\ArmCC" --Via ".\stm32f10x_exti.__i"
+"D:\Keil_v5\ARM\ARMCC\bin\ArmCC" --Via ".\core_cm3.__i"
+"D:\Keil_v5\ARM\ARMCC\bin\ArmCC" --Via ".\system_stm32f10x.__i"
+"D:\Keil_v5\ARM\ARMCC\bin\ArmLink" --Via ".\STM32-DEMO.lnp"
+"D:\Keil_v5\ARM\ARMCC\bin\fromelf.exe" ".\STM32-DEMO.axf" --i32combined --output ".\STM32-DEMO.hex"
